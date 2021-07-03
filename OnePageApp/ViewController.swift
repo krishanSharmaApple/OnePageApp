@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("come in view didLoad")
         txtBirthDate.addInputViewDatePicker(target: self, selector: #selector(doneButtonPressed))
         getLocation()
         // Ask for Authorisation from the User.
